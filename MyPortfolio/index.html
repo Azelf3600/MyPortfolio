@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>John Benedict Malones — CS Student & Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ══════════════════ NAV ══════════════════ -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">jb<span>.</span>malones</a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#hero"       data-index="01">Home</a></li>
+      <li><a href="#about"      data-index="02">About</a></li>
+      <li><a href="#projects"   data-index="03">Projects</a></li>
+      <li><a href="#experience" data-index="04">Experience</a></li>
+      <li><a href="#contact"    data-index="05">Contact</a></li>
+    </ul>
+    <button class="burger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ══════════════════ ❶ HERO ══════════════════ -->
+  <section id="hero">
+    <div class="circuit-bg">
+      <svg viewBox="0 0 1400 800" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+        <g stroke="#00c8ff" stroke-width="1" fill="none">
+          <line x1="0" y1="120" x2="320" y2="120"/><line x1="320" y1="120" x2="380" y2="180"/>
+          <line x1="380" y1="180" x2="700" y2="180"/><line x1="700" y1="180" x2="760" y2="120"/>
+          <line x1="760" y1="120" x2="1400" y2="120"/><line x1="0" y1="400" x2="200" y2="400"/>
+          <line x1="200" y1="400" x2="260" y2="460"/><line x1="260" y1="460" x2="600" y2="460"/>
+          <line x1="600" y1="460" x2="660" y2="400"/><line x1="660" y1="400" x2="1400" y2="400"/>
+          <line x1="0" y1="640" x2="400" y2="640"/><line x1="400" y1="640" x2="460" y2="580"/>
+          <line x1="460" y1="580" x2="900" y2="580"/><line x1="900" y1="580" x2="960" y2="640"/>
+          <line x1="960" y1="640" x2="1400" y2="640"/><line x1="320" y1="120" x2="320" y2="0"/>
+          <line x1="760" y1="120" x2="760" y2="0"/><line x1="200" y1="400" x2="200" y2="800"/>
+          <line x1="660" y1="400" x2="660" y2="800"/><line x1="460" y1="580" x2="460" y2="400"/>
+          <line x1="900" y1="580" x2="900" y2="800"/><line x1="1100" y1="0" x2="1100" y2="300"/>
+          <line x1="1100" y1="300" x2="1200" y2="400"/><line x1="1200" y1="400" x2="1200" y2="800"/>
+          <line x1="1100" y1="300" x2="900" y2="300"/>
+          <circle cx="320" cy="120" r="3" fill="#00c8ff"/><circle cx="760" cy="120" r="3" fill="#00c8ff"/>
+          <circle cx="200" cy="400" r="3" fill="#00c8ff"/><circle cx="660" cy="400" r="3" fill="#00c8ff"/>
+          <circle cx="460" cy="580" r="5" fill="none"/><circle cx="900" cy="580" r="5" fill="none"/>
+          <circle cx="380" cy="180" r="3" fill="#00c8ff"/><circle cx="700" cy="180" r="3" fill="#00c8ff"/>
+          <circle cx="1100" cy="300" r="4" fill="none"/><circle cx="1200" cy="400" r="3" fill="#00c8ff"/>
+        </g>
+      </svg>
+    </div>
+    <div class="scan-line"></div>
+
+    <div class="wrap inner">
+      <div class="hero-inner">
+        <div>
+          <div class="hero-status">
+            <span class="status-dot"></span>
+            <span class="status-text">SYSTEM ONLINE</span>
+            &nbsp;·&nbsp; UCC-CS-2025
+          </div>
+          <div class="hero-designation">// UNIT DESIGNATION //</div>
+          <h1 class="hero-name">
+            <span class="line-dim">John Benedict</span>
+            <span class="glitch-target">Malones</span>
+            <span class="line-cyan">Developer</span>
+          </h1>
+          <p class="hero-role">
+            CS Student<span>Game Maker · Web Dev · Builder</span>
+            <span class="cursor-blink"></span>
+          </p>
+          <p class="hero-desc">
+            3rd year Computer Science student at the University of Caloocan City. Co-founder of Starloom Studios. Building things at the edge of creativity and code.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn">
+              <svg width="10" height="10" viewBox="0 0 10 10" fill="currentColor"><polygon points="0,0 10,5 0,10"/></svg>
+              View Projects
+            </a>
+            <a href="#contact" class="btn btn-ghost">Initiate Contact</a>
+          </div>
+        </div>
+        <div class="photo-wrap">
+          <div class="hex-frame">
+            <div class="hex-ring">
+              <svg viewBox="0 0 328 328" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="164,4 320,86 320,242 164,324 8,242 8,86" stroke="rgba(0,200,255,0.3)" stroke-width="1" stroke-dasharray="8 4"/>
+              </svg>
+            </div>
+            <div class="hex-ring2">
+              <svg viewBox="0 0 368 368" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="184,4 360,96 360,272 184,364 8,272 8,96" stroke="rgba(0,200,255,0.15)" stroke-width="1" stroke-dasharray="4 8"/>
+              </svg>
+            </div>
+            <div class="hex-img">
+              <img src="asset/Malones.jpg" alt="John Benedict Malones" />
+            </div>
+          </div>
+          <span class="hud-tag tag-tl">CS · 3RD YR</span>
+          <span class="hud-tag tag-tr">ONLINE</span>
+          <span class="hud-tag tag-bl">UCC · PH</span>
+          <span class="hud-tag tag-br">STARLOOM</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      <span>Scroll Down</span>
+    </div>
+  </section>
+
+  <!-- ══════════════════ ❷ ABOUT ══════════════════ -->
+  <section id="about">
+    <div class="inner">
+      <div class="about-grid">
+
+        <!-- Left: image only -->
+        <div class="about-img-outer reveal left">
+          <div class="about-img-frame">
+            <img src="asset/Malones.jpg" alt="John Benedict Malones" />
+          </div>
+          <div class="img-deco"></div>
+        </div>
+
+        <!-- Right: bio -->
+        <div class="about-body reveal right">
+          <p class="sec-label">Personnel File</p>
+          <h2 class="sec-title">About <span>Me</span></h2>
+          <div class="divider"></div>
+
+          <p>
+            I'm <strong>John Benedict Malones</strong> a 3rd year Computer Science student at the
+            <strong>University of Caloocan City</strong>, driven by the intersection of technology, creativity, and problem-solving.
+          </p>
+          <p>
+            I co-founded <strong>Starloom Studios</strong> with my college friends, a small indie game studio where we've shipped web-based games and an itch.io title. Building real products has taught me more than any classroom could.
+          </p>
+          <p>
+            I'm actively looking for <strong>opportunities to grow</strong> internships, freelance work, open source, or just connecting with people who build real things. Ship first, learn always.
+          </p>
+
+          <div class="school-row">
+            <span style="font-size:1.3rem">🎓</span>
+            <div>
+              <div class="sch-name">University of Caloocan City</div>
+              <div class="sch-sub">BS Computer Science &nbsp;·&nbsp; 3rd Year &nbsp;·&nbsp; Philippines</div>
+            </div>
+          </div>
+
+          <div class="about-btns">
+            <a href="#projects" class="btn">
+              <svg width="10" height="10" viewBox="0 0 10 10" fill="currentColor"><polygon points="0,0 10,5 0,10"/></svg>
+              View Projects
+            </a>
+            <a href="#contact" class="btn btn-ghost">Contact Me</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ── Full-width skills panel ── -->
+      <div class="skills-panel reveal" style="margin-top:3.5rem">
+        <div class="skills-two-col">
+
+          <div class="skills-col">
+            <div class="skills-panel-head"><span class="sp-label">Technical Skills</span></div>
+            <div class="skills-panel-tags">
+              <span class="sk">HTML</span><span class="sk">CSS</span>
+              <span class="sk">JavaScript</span><span class="sk">p5.js</span>
+              <span class="sk">Unity</span><span class="sk">C#</span>
+              <span class="sk">Python</span><span class="sk">PHP</span>
+              <span class="sk">MySQL</span><span class="sk">MS 365</span>
+              <span class="sk">Google Workspace</span><span class="sk">Git</span>
+              <span class="sk">GitHub</span><span class="sk">Game Design</span>
+              <span class="sk">UI/UX</span><span class="sk">Figma</span>
+              <span class="sk">Krita</span><span class="sk">CSP</span>
+              <span class="sk">Illustrator</span><span class="sk">Vercel</span>
+              <span class="sk">Netlify</span><span class="sk">CRM</span>
+              <span class="sk">Zendesk</span>
+            </div>
+          </div>
+
+          <div class="skills-col">
+            <div class="skills-panel-head"><span class="sp-label">Soft Skills</span></div>
+            <div class="skills-panel-tags">
+              <span class="sk sk-soft">Time Management</span>
+              <span class="sk sk-soft">Communication Skills</span>
+              <span class="sk sk-soft">Adaptability</span>
+              <span class="sk sk-soft">Project Management</span>
+              <span class="sk sk-soft">Teamwork &amp; Collaboration</span>
+              <span class="sk sk-soft">Remote Work Discipline</span>
+              <span class="sk sk-soft">Fluent English</span>
+              <span class="sk sk-soft">Native Tagalog</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════ ❸ PROJECTS — horizontal carousel ══════════════════ -->
+  <section id="projects">
+    <div class="inner">
+      <p class="sec-label">Mission Log</p>
+      <h2 class="sec-title">My <span>Projects</span></h2>
+      <p class="projects-intro">
+        Games, websites, and experiments — built with college friends and solo. Each one ships something real.
+      </p>
+    </div>
+
+    <!-- Carousel wrapper (full width intentional) -->
+    <div class="proj-carousel-wrap">
+      <button class="carousel-arrow arrow-left" id="arrowLeft" aria-label="Previous">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <button class="carousel-arrow arrow-right" id="arrowRight" aria-label="Next">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+
+      <div class="proj-carousel" id="projCarousel">
+
+        <!-- Starloom -->
+        <div class="proj-card proj-starloom">
+          <div class="proj-bg"></div>
+          <div class="proj-overlay"></div>
+          <div class="proj-content">
+            <div class="proj-type">Website</div>
+            <div class="proj-tags">
+              <span class="proj-tag">HTML/CSS</span><span class="proj-tag">JavaScript</span><span class="proj-tag">Vercel</span>
+            </div>
+            <h3 class="proj-title">Starloom Studios</h3>
+            <p class="proj-desc">Showcase website for Starloom Studios — the indie game studio I co-founded. Presents games, team, and vision.</p>
+            <div class="proj-links">
+              <a href="https://starloom-topaz.vercel.app/" target="_blank" rel="noopener" class="proj-link">Visit Site →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Martial Ascension -->
+        <div class="proj-card proj-ma">
+          <div class="proj-bg"></div>
+          <div class="proj-overlay"></div>
+          <div class="proj-content">
+            <div class="proj-type">Web Game</div>
+            <div class="proj-tags">
+              <span class="proj-tag">JavaScript</span><span class="proj-tag">Canvas API</span><span class="proj-tag">2D Fighter</span>
+            </div>
+            <h3 class="proj-title">Martial Ascension</h3>
+            <p class="proj-desc">Web-based 2D action fighting game playable in the browser. Fast combat, fluid animation, martial arts aesthetic.</p>
+            <div class="proj-links">
+              <a href="https://martial-ascension.vercel.app/" target="_blank" rel="noopener" class="proj-link">Play Game →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- WorldReboot -->
+        <div class="proj-card proj-wr">
+          <div class="proj-bg"></div>
+          <div class="proj-overlay"></div>
+          <div class="proj-content">
+            <div class="proj-type">Unity Game</div>
+            <div class="proj-tags">
+              <span class="proj-tag">Unity</span><span class="proj-tag">C#</span><span class="proj-tag">Platformer</span><span class="proj-tag">Puzzle</span>
+            </div>
+            <h3 class="proj-title">WorldReboot</h3>
+            <p class="proj-desc">2D platforming puzzle game merging platforming with in-game programming challenges. Solve puzzles by writing code inside the game world — built in Unity.</p>
+            <div class="proj-links">
+              <a href="https://starloom-topaz.vercel.app/games/worldreboot.html" target="_blank" rel="noopener" class="proj-link">View Game →</a>
+              <a href="https://starloom-studio.itch.io/worldreboot" target="_blank" rel="noopener" class="proj-link ghost">itch.io →</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Dots -->
+      <div class="carousel-dots" id="carouselDots">
+        <button class="cdot active" data-i="0"></button>
+        <button class="cdot" data-i="1"></button>
+        <button class="cdot" data-i="2"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ ❹ EXPERIENCE ══════════════════ -->
+  <section id="experience">
+    <div class="inner">
+      <p class="sec-label">Operational History</p>
+      <h2 class="sec-title">Experience &amp; <span>Education</span></h2>
+      <div class="divider"></div>
+
+      <div class="exp-grid">
+
+        <!-- LEFT: Work Experience -->
+        <div class="exp-col reveal left">
+          <div class="exp-col-head">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>
+            Work Experience
+          </div>
+
+          <div class="exp-timeline">
+
+            <div class="exp-item">
+              <div class="exp-dot"></div>
+              <div class="exp-body">
+                <div class="exp-period">May 2024 — January 2026</div>
+                <div class="exp-role">Customer Service Representative</div>
+                <div class="exp-org">Afterpay · Teleperformance — Fairview Terraces</div>
+                <ul class="exp-bullets">
+                  <li>Handled inbound and outbound via phone, chats and email assisting with queries about account, order, payments, refunds and disputes while maintaining respectful communication.</li>
+                  <li>Helped customers build trust by resolving payment and order issues while maintaining a calm, professional tone even under pressure.</li>
+                  <li>Provided effective resolutions that led to smoother customer service experience and lessened repeat contacts.</li>
+                  <li>Maintained high QA and CSAT scores through clear, concise resolution and respectful interaction.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="exp-item">
+              <div class="exp-dot"></div>
+              <div class="exp-body">
+                <div class="exp-period">November 2021 — Present</div>
+                <div class="exp-role">Graphic Designer</div>
+                <div class="exp-org">Freelance</div>
+                <ul class="exp-bullets">
+                  <li>Helped clients turn ideas into finished artwork through communication and creative interpretation, leading to client satisfaction and retention.</li>
+                  <li>Produced server banners that solidify group identity, increasing server branding and player engagement.</li>
+                  <li>Designed DND characters using digital illustration techniques, helping clients visualize and immerse themselves in roleplay.</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- RIGHT: Education -->
+        <div class="exp-col reveal right">
+          <div class="exp-col-head">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            Education
+          </div>
+
+          <div class="exp-timeline">
+
+            <div class="exp-item">
+              <div class="exp-dot"></div>
+              <div class="exp-body">
+                <div class="exp-period">2023 — Present</div>
+                <div class="exp-role">BS Computer Science</div>
+                <div class="exp-org">University of Caloocan City — North Campus</div>
+                <ul class="exp-bullets">
+                  <li>Relevant coursework in Software &amp; Web Development.</li>
+                  <li>Backend Developer — Library system with CRUD function.</li>
+                  <li>Backend Developer — IT Department borrowing system with CRUD function.</li>
+                  <li>Front-end Developer — Job hunting website built with Laravel framework.</li>
+                  <li>Lead Game Designer — World;REBOOT! 2D platformer made with Unity.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="exp-item">
+              <div class="exp-dot"></div>
+              <div class="exp-body">
+                <div class="exp-period">2021 — 2023</div>
+                <div class="exp-role">Senior High School</div>
+                <div class="exp-org">Trinity Polytechnic College</div>
+                <ul class="exp-bullets">
+                  <li>Strand: Accountancy, Business and Management (ABM).</li>
+                  <li>Graduated with Honors.</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ ❺ CONTACT ══════════════════ -->
+  <section id="contact">
+    <div class="inner">
+      <p class="sec-label">Comms Channel</p>
+      <h2 class="sec-title">Let's <span>Connect</span></h2>
+      <div class="divider"></div>
+
+      <div class="contact-full reveal">
+
+        <p class="contact-tagline">
+          Open to internships, freelance work, collaborations, and opportunities to grow.<br>
+          Don't hesitate, reach out through any channel below.
+        </p>
+
+        <div class="contact-channels">
+
+          <!-- Email -->
+          <a href="https://mail.google.com/mail/u/0/?to=johnbenedictmalones93@gmail.com&fs=1&tf=cm" target="_blank" rel="noopener" class="contact-channel-card">
+            <div class="ccc-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,13 22,4"/></svg>
+            </div>
+            <div class="ccc-body">
+              <div class="ccc-label">// Email</div>
+              <div class="ccc-value">johnbenedictmalones93@gmail.com</div>
+              <div class="ccc-note">Click to open mail composer</div>
+            </div>
+            <div class="ccc-arrow">→</div>
+          </a>
+
+          <!-- Phone -->
+          <a href="tel:+639071612272" class="contact-channel-card">
+            <div class="ccc-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.68 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.59 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.77a16 16 0 0 0 6.29 6.29l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div class="ccc-body">
+              <div class="ccc-label">// Phone</div>
+              <div class="ccc-value">+63 907 161 2272</div>
+              <div class="ccc-note">Caloocan City, Philippines</div>
+            </div>
+            <div class="ccc-arrow">→</div>
+          </a>
+
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/bndctmlns" target="_blank" rel="noopener" class="contact-channel-card">
+            <div class="ccc-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </div>
+            <div class="ccc-body">
+              <div class="ccc-label">// Facebook</div>
+              <div class="ccc-value">facebook.com/bndctmlns</div>
+              <div class="ccc-note">Personal profile</div>
+            </div>
+            <div class="ccc-arrow">→</div>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/john-benedict-malones" target="_blank" rel="noopener" class="contact-channel-card">
+            <div class="ccc-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </div>
+            <div class="ccc-body">
+              <div class="ccc-label">// LinkedIn</div>
+              <div class="ccc-value">linkedin.com/in/john-benedict-malones</div>
+              <div class="ccc-note">Professional profile</div>
+            </div>
+            <div class="ccc-arrow">→</div>
+          </a>
+
+        </div>
+
+        <div class="avail-badge" style="margin-top:3rem">
+          <span class="avail-dot"></span>
+          <span>Open to Opportunities</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ FOOTER ══════════════════ -->
+  <footer style="position:relative">
+    <div class="footer-logo">jb<span>.</span>malones</div>
+    <p class="footer-copy">© 2025 John Benedict Malones &nbsp;·&nbsp; Built with HTML, CSS & JS</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
