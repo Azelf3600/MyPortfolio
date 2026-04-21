@@ -250,7 +250,7 @@ nav::before { content:''; position:absolute; bottom:0; left:4rem; width:40px; he
 
 .hero-name { font-family:var(--font-hud); font-size:clamp(2.4rem,5.5vw,4.8rem); font-weight:900; line-height:.95; letter-spacing:.03em; text-transform:uppercase; color:#fff; margin-bottom:1rem; animation:fadeUp .6s .2s both; }
 .hero-name .line-cyan { color:var(--cyan); display:block; }
-.hero-name .line-dim  { color:rgba(255,255,255,.18); display:block; font-size:.55em; letter-spacing:.15em; }
+.hero-name .line-dim  { color:rgba(255,255,255,.40); display:block; font-size:.55em; letter-spacing:.15em; }
 .hero-name:hover .glitch-target { animation:glitch .4s steps(1) both; }
 
 .hero-role { font-family:var(--font-mono); font-size:.78rem; color:var(--muted); letter-spacing:.12em; margin-bottom:1.8rem; animation:fadeUp .6s .3s both; }
@@ -674,7 +674,7 @@ nav::before { content:''; position:absolute; bottom:0; left:4rem; width:40px; he
 
 .contact-channels {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 2px;
 }
 
@@ -777,6 +777,12 @@ nav::before { content:''; position:absolute; bottom:0; left:4rem; width:40px; he
 .avail-badge { display:inline-flex; align-items:center; gap:9px; border:1px solid rgba(0,255,100,.18); padding:.6rem 1.4rem; background:rgba(0,255,100,.03); }
 .avail-dot   { width:5px; height:5px; background:#00ff88; box-shadow:0 0 6px #00ff88,0 0 12px #00ff88; animation:pulseGlow 2s ease infinite; }
 .avail-badge span { font-family:var(--font-mono); font-size:.65rem; letter-spacing:.2em; text-transform:uppercase; color:#00ff88; }
+
+/* Download Resume card — subtle cyan tint */
+.ccc-download { border-color: rgba(0,200,255,.22); }
+.ccc-download .ccc-value { color: var(--cyan); }
+.ccc-download .ccc-arrow { color: var(--cyan); }
+.ccc-download:hover { background: rgba(0,200,255,.06); }
 
 @media (max-width: 900px) {
   .contact-channels { grid-template-columns: 1fr; }
